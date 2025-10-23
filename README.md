@@ -16,18 +16,23 @@ Automatically removes unnecessary backups, ZIP/TAR files, temporary data, and YU
 ## ⚙️ Installation (ইনস্টলেশন)
 Run the following commands as **root** 👇  
 
-```bash
+
 ## Common Copy Command (Run Directly)
 Want to run instantly without downloading anything?
 Just copy and paste 👇
+```bash
 bash <(curl -s https://raw.githubusercontent.com/hostserverbd/cleanup-whm/refs/heads/main/clean_whm.sh)
-
+```
 
 # Download the cleanup script
+```bash
 wget https://raw.githubusercontent.com/hostserverbd/cleanup-whm/refs/heads/main/clean_whm.sh
-
+```
 # Make it executable
+```bash
 chmod +x clean_whm.sh
-
+```
 # Run the script
+```bash
 ./clean_whm.sh
+```
